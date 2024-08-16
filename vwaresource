@@ -270,6 +270,14 @@ CreateElement("Stroke", function(Color, Thickness)
 	return Stroke
 end)
 
+CreateElement("OrStroke", function(Color)
+	local OrStroke = Create("UIStroke", {
+		Color = Color or Color3.fromRGB(255, 255, 255"),
+		Thickness = 1
+	})
+	return OrStroke
+end)
+
 CreateElement("List", function(Scale, Offset)
 	local List = Create("UIListLayout", {
 		SortOrder = Enum.SortOrder.LayoutOrder,
