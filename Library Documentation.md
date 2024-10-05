@@ -10,12 +10,7 @@ local HyperLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ImN
 
 ## Creating the Window
 ```lua
-local Window = HyperLib:MakeWindow({
-    Name = "Title of the library",
-    HidePremium = false,
-    SaveConfig = true, 
-    ConfigFolder = "HyperConfig"
-})
+local Window = HyperLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "HyperConfig"})
 ```
 
 
